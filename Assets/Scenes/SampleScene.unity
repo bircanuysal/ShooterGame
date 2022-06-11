@@ -868,6 +868,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: SolKol
       objectReference: {fileID: 0}
+    - target: {fileID: 4397938396142510245, guid: 2e4a852b022075d4781b102bf2a82eee, type: 3}
+      propertyPath: m_TagString
+      value: Gogus
+      objectReference: {fileID: 0}
     - target: {fileID: 4612752340247577179, guid: 2e4a852b022075d4781b102bf2a82eee, type: 3}
       propertyPath: m_TagString
       value: Untagged
@@ -877,6 +881,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4621639626782087326, guid: 2e4a852b022075d4781b102bf2a82eee, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621639626950023432, guid: 2e4a852b022075d4781b102bf2a82eee, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -972,6 +980,10 @@ PrefabInstance:
     - target: {fileID: 8679013139512256209, guid: 97240ce56e5f873418245681b97caf02, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679013139512256210, guid: 97240ce56e5f873418245681b97caf02, type: 3}
+      propertyPath: jumpHeight
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 8679013139512256211, guid: 97240ce56e5f873418245681b97caf02, type: 3}
       propertyPath: m_RootOrder

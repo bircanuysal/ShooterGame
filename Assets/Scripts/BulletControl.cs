@@ -37,18 +37,10 @@ public class BulletControl : MonoBehaviour
                 StartCoroutine(AnimatorCloseandOpen());
             }
         }
-        if (other.gameObject.tag == "SolKol")
+        if (other.gameObject.tag == "Gogus")
         {
-            GameManagement.Instance.Healt -= 30;
-            //particle
-            if (GameManagement.Instance.Healt > 20)
-            {
-                StartCoroutine(AnimatorCloseandOpen());
-            }
-        }
-        if (other.gameObject.tag == "SaðKol")
-        {
-            GameManagement.Instance.Healt -= 30;
+            print("göðüsten vuruldu");
+            GameManagement.Instance.Healt -= 40;
             //particle
             if (GameManagement.Instance.Healt > 20)
             {
